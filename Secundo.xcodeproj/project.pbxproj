@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062295B5EC10C60CFB5A19CB /* Pods_Secundo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E923DE28499AEA4F3979A115 /* Pods_Secundo.framework */; };
+		487929768358F6EA39F2BF63 /* Pods_SecundoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B223E3B7D590354F5C2165CF /* Pods_SecundoUITests.framework */; };
+		BFA89123A15C95CBA22E6F22 /* Pods_SecundoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC132819419E6714902F49 /* Pods_SecundoTests.framework */; };
+		C225E8681D5D2A9200AE97EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E8671D5D2A9200AE97EA /* Constants.swift */; };
+		C225E8691D5D2A9200AE97EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E8671D5D2A9200AE97EA /* Constants.swift */; };
+		C225E86A1D5D2A9200AE97EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E8671D5D2A9200AE97EA /* Constants.swift */; };
+		C225E86C1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */; };
+		C225E86D1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */; };
+		C225E86E1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */; };
 		C2D17F431D5BD2650031E2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D17F421D5BD2650031E2D0 /* AppDelegate.swift */; };
 		C2D17F451D5BD2650031E2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D17F441D5BD2650031E2D0 /* ViewController.swift */; };
 		C2D17F481D5BD2650031E2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D17F461D5BD2650031E2D0 /* Main.storyboard */; };
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3458B968482603EC16A3E9B8 /* Pods-SecundoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecundoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecundoTests/Pods-SecundoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		620B14A3560B9A0745A65474 /* Pods-SecundoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecundoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecundoTests/Pods-SecundoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4BC132819419E6714902F49 /* Pods_SecundoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecundoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9ABD889456E11C6B3F0BE6 /* Pods-Secundo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secundo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Secundo/Pods-Secundo.debug.xcconfig"; sourceTree = "<group>"; };
+		B223E3B7D590354F5C2165CF /* Pods_SecundoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecundoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C225E8671D5D2A9200AE97EA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		C2D17F3F1D5BD2650031E2D0 /* Secundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D17F421D5BD2650031E2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D17F441D5BD2650031E2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		C2D17F611D5BD2650031E2D0 /* SecundoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecundoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D17F651D5BD2650031E2D0 /* SecundoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecundoUITests.swift; sourceTree = "<group>"; };
 		C2D17F671D5BD2650031E2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC1D88FDDC533DED5A41AD0 /* Pods-Secundo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secundo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Secundo/Pods-Secundo.release.xcconfig"; sourceTree = "<group>"; };
+		D97903F6559B7DCE82264E76 /* Pods-SecundoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecundoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecundoUITests/Pods-SecundoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E923DE28499AEA4F3979A115 /* Pods_Secundo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secundo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE48A91B5956E2857FEEAB49 /* Pods-SecundoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecundoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecundoUITests/Pods-SecundoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062295B5EC10C60CFB5A19CB /* Pods_Secundo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA89123A15C95CBA22E6F22 /* Pods_SecundoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487929768358F6EA39F2BF63 /* Pods_SecundoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,8 @@
 				C2D17F591D5BD2650031E2D0 /* SecundoTests */,
 				C2D17F641D5BD2650031E2D0 /* SecundoUITests */,
 				C2D17F401D5BD2650031E2D0 /* Products */,
+				D421FDCD8A02EAE8F84AD091 /* Pods */,
+				E30E3BFA350F942CB28FC10C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				C2D17F421D5BD2650031E2D0 /* AppDelegate.swift */,
+				C225E8671D5D2A9200AE97EA /* Constants.swift */,
+				C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */,
 				C2D17F441D5BD2650031E2D0 /* ViewController.swift */,
 				C2D17F461D5BD2650031E2D0 /* Main.storyboard */,
 				C2D17F4C1D5BD2650031E2D0 /* Assets.xcassets */,
@@ -128,6 +155,29 @@
 			path = SecundoUITests;
 			sourceTree = "<group>";
 		};
+		D421FDCD8A02EAE8F84AD091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD9ABD889456E11C6B3F0BE6 /* Pods-Secundo.debug.xcconfig */,
+				CBC1D88FDDC533DED5A41AD0 /* Pods-Secundo.release.xcconfig */,
+				3458B968482603EC16A3E9B8 /* Pods-SecundoTests.debug.xcconfig */,
+				620B14A3560B9A0745A65474 /* Pods-SecundoTests.release.xcconfig */,
+				D97903F6559B7DCE82264E76 /* Pods-SecundoUITests.debug.xcconfig */,
+				EE48A91B5956E2857FEEAB49 /* Pods-SecundoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E30E3BFA350F942CB28FC10C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E923DE28499AEA4F3979A115 /* Pods_Secundo.framework */,
+				A4BC132819419E6714902F49 /* Pods_SecundoTests.framework */,
+				B223E3B7D590354F5C2165CF /* Pods_SecundoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D17F6A1D5BD2650031E2D0 /* Build configuration list for PBXNativeTarget "Secundo" */;
 			buildPhases = (
+				4214B5BDF28CCC0A5CC6B239 /* [CP] Check Pods Manifest.lock */,
 				C2D17F3B1D5BD2650031E2D0 /* Sources */,
 				C2D17F3C1D5BD2650031E2D0 /* Frameworks */,
 				C2D17F3D1D5BD2650031E2D0 /* Resources */,
+				62179908795C3453A8532F7C /* [CP] Embed Pods Frameworks */,
+				D73FE47F1FFD9C87CBCB5451 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D17F6D1D5BD2650031E2D0 /* Build configuration list for PBXNativeTarget "SecundoTests" */;
 			buildPhases = (
+				D325B58D8F6706A56FA64687 /* [CP] Check Pods Manifest.lock */,
 				C2D17F521D5BD2650031E2D0 /* Sources */,
 				C2D17F531D5BD2650031E2D0 /* Frameworks */,
 				C2D17F541D5BD2650031E2D0 /* Resources */,
+				392059641F1CEEFAD5E489BC /* [CP] Embed Pods Frameworks */,
+				71BCC8A4ADF2EA2181C99462 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D17F701D5BD2650031E2D0 /* Build configuration list for PBXNativeTarget "SecundoUITests" */;
 			buildPhases = (
+				F92EB44778DE8AB57F954113 /* [CP] Check Pods Manifest.lock */,
 				C2D17F5D1D5BD2650031E2D0 /* Sources */,
 				C2D17F5E1D5BD2650031E2D0 /* Frameworks */,
 				C2D17F5F1D5BD2650031E2D0 /* Resources */,
+				552C55D636BE206D41BB8128 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +254,7 @@
 				TargetAttributes = {
 					C2D17F3E1D5BD2650031E2D0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LS6M2TWH7D;
 					};
 					C2D17F551D5BD2650031E2D0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -254,14 +313,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		392059641F1CEEFAD5E489BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecundoTests/Pods-SecundoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4214B5BDF28CCC0A5CC6B239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		552C55D636BE206D41BB8128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecundoUITests/Pods-SecundoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62179908795C3453A8532F7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Secundo/Pods-Secundo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71BCC8A4ADF2EA2181C99462 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecundoTests/Pods-SecundoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D325B58D8F6706A56FA64687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D73FE47F1FFD9C87CBCB5451 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Secundo/Pods-Secundo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92EB44778DE8AB57F954113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2D17F3B1D5BD2650031E2D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2D17F451D5BD2650031E2D0 /* ViewController.swift in Sources */,
+				C225E86C1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */,
 				C2D17F4B1D5BD2650031E2D0 /* Secundo.xcdatamodeld in Sources */,
 				C2D17F431D5BD2650031E2D0 /* AppDelegate.swift in Sources */,
+				C225E8681D5D2A9200AE97EA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +453,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C225E86D1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */,
 				C2D17F5B1D5BD2650031E2D0 /* SecundoTests.swift in Sources */,
+				C225E8691D5D2A9200AE97EA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +463,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C225E86E1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */,
 				C2D17F661D5BD2650031E2D0 /* SecundoUITests.swift in Sources */,
+				C225E86A1D5D2A9200AE97EA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +591,12 @@
 		};
 		C2D17F6B1D5BD2650031E2D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9ABD889456E11C6B3F0BE6 /* Pods-Secundo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Secundo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juandavidcruz.Secundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,9 +605,12 @@
 		};
 		C2D17F6C1D5BD2650031E2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC1D88FDDC533DED5A41AD0 /* Pods-Secundo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Secundo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.juandavidcruz.Secundo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +619,7 @@
 		};
 		C2D17F6E1D5BD2650031E2D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3458B968482603EC16A3E9B8 /* Pods-SecundoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SecundoTests/Info.plist;
@@ -437,6 +632,7 @@
 		};
 		C2D17F6F1D5BD2650031E2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620B14A3560B9A0745A65474 /* Pods-SecundoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SecundoTests/Info.plist;
@@ -449,6 +645,7 @@
 		};
 		C2D17F711D5BD2650031E2D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97903F6559B7DCE82264E76 /* Pods-SecundoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SecundoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +657,7 @@
 		};
 		C2D17F721D5BD2650031E2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE48A91B5956E2857FEEAB49 /* Pods-SecundoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SecundoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +686,7 @@
 				C2D17F6C1D5BD2650031E2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D17F6D1D5BD2650031E2D0 /* Build configuration list for PBXNativeTarget "SecundoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +695,7 @@
 				C2D17F6F1D5BD2650031E2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D17F701D5BD2650031E2D0 /* Build configuration list for PBXNativeTarget "SecundoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +704,7 @@
 				C2D17F721D5BD2650031E2D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -10,9 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    override func viewWillAppear(animated: Bool) {
+        
+        
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+ 
+        if NSUserDefaults.standardUserDefaults().boolForKey(LaunchStrings.AlreadyLaunched) == false {
+            
+            self.performSegueWithIdentifier(LaunchStrings.WelcomeViewSegueId, sender: nil)
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
