@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import MediaPlayer
+import SubtleVolume
 
 class ViewController: UIViewController {
 
+    let volume = SubtleVolume(style: .Plain)
+    
     override func viewWillAppear(animated: Bool) {
-        
-        
-        
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setUpVolumeButtons()
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -35,6 +38,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setUpVolumeButtons() {
+   
+        volume.frame = CGRect(x: 0, y: 20, width: view.frame.width, height: 1)
+        volume.barTintColor = .blackColor()
+        volume.barBackgroundColor = UIColor.grayColor().colorWithAlphaComponent(0.3)
+        volume.animation = .FadeIn
+        view.addSubview(volume)
+       
     }
 
 
