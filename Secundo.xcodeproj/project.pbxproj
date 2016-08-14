@@ -18,7 +18,8 @@
 		C225E86E1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */; };
 		C225E8751D5E5DA100AE97EA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C225E8741D5E5DA100AE97EA /* MediaPlayer.framework */; };
 		C225E8771D5E5E3300AE97EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C225E8761D5E5E3300AE97EA /* AVFoundation.framework */; };
-		C225E8791D5E6B4800AE97EA /* MusicPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E8781D5E6B4800AE97EA /* MusicPlayerController.swift */; };
+		C225E87B1D5E6BE000AE97EA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E87A1D5E6BE000AE97EA /* PlayerViewController.swift */; };
+		C225E87D1D5E6D8700AE97EA /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C225E87C1D5E6D8700AE97EA /* LineView.swift */; };
 		C2D17F431D5BD2650031E2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D17F421D5BD2650031E2D0 /* AppDelegate.swift */; };
 		C2D17F451D5BD2650031E2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D17F441D5BD2650031E2D0 /* ViewController.swift */; };
 		C2D17F481D5BD2650031E2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D17F461D5BD2650031E2D0 /* Main.storyboard */; };
@@ -57,7 +58,8 @@
 		C225E86F1D5E0D6B00AE97EA /* Secundo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Secundo-Bridging-Header.h"; sourceTree = "<group>"; };
 		C225E8741D5E5DA100AE97EA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C225E8761D5E5E3300AE97EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C225E8781D5E6B4800AE97EA /* MusicPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayerController.swift; sourceTree = "<group>"; };
+		C225E87A1D5E6BE000AE97EA /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		C225E87C1D5E6D8700AE97EA /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		C2D17F3F1D5BD2650031E2D0 /* Secundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Secundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D17F421D5BD2650031E2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D17F441D5BD2650031E2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,7 +147,8 @@
 				C225E8671D5D2A9200AE97EA /* Constants.swift */,
 				C225E86B1D5D2B4B00AE97EA /* WelcomeViewController.swift */,
 				C2D17F441D5BD2650031E2D0 /* ViewController.swift */,
-				C225E8781D5E6B4800AE97EA /* MusicPlayerController.swift */,
+				C225E87A1D5E6BE000AE97EA /* PlayerViewController.swift */,
+				C225E87C1D5E6D8700AE97EA /* LineView.swift */,
 				C2D17F461D5BD2650031E2D0 /* Main.storyboard */,
 				C2D17F4C1D5BD2650031E2D0 /* Assets.xcassets */,
 				C2D17F4E1D5BD2650031E2D0 /* LaunchScreen.storyboard */,
@@ -464,10 +467,11 @@
 			files = (
 				C2D17F451D5BD2650031E2D0 /* ViewController.swift in Sources */,
 				C225E86C1D5D2B4B00AE97EA /* WelcomeViewController.swift in Sources */,
-				C225E8791D5E6B4800AE97EA /* MusicPlayerController.swift in Sources */,
 				C2D17F4B1D5BD2650031E2D0 /* Secundo.xcdatamodeld in Sources */,
 				C2D17F431D5BD2650031E2D0 /* AppDelegate.swift in Sources */,
 				C225E8681D5D2A9200AE97EA /* Constants.swift in Sources */,
+				C225E87D1D5E6D8700AE97EA /* LineView.swift in Sources */,
+				C225E87B1D5E6BE000AE97EA /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

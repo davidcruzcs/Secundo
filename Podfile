@@ -8,6 +8,8 @@ target 'Secundo' do
   # Pods for Secundo
 pod 'AFNetworking', '~> 3.0'
 pod 'SubtleVolume'
+pod 'ARNTransitionAnimator'
+
 
   target 'SecundoTests' do
     inherit! :search_paths

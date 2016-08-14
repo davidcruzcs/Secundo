@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ARNTransitionAnimator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Secundo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,11 +37,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15EEF7D787765802192024BE6B0ABDD2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>17F0E875BB5D19B97D4ED4D7D01A879C</key>
 		<dict>
 			<key>primary</key>
@@ -47,12 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>316CD20B9528895B18951B614A9D90CE</key>
+		<key>374E0151F3A3D9604F2FA67D39D2B8CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3F77B839A35A47C90712CFBE7FFD63E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>862986EC221A87F7D867EF5F043F11C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>887A1F399C1C0E18F1B9EEA0FD58F115</key>
 		<dict>
 			<key>primary</key>
 			<true/>
